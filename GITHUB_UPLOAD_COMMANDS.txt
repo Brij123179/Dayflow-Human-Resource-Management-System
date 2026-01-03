@@ -1,0 +1,25 @@
+# Commands to Upload DayFlow to GitHub
+# Copy and paste these commands one by one in PowerShell
+
+# Step 1: Initialize git repository
+git init
+
+# Step 2: Add the remote repository
+git remote add origin https://github.com/Brij123179/Dayflow-Human-Resource-Management-System.git
+
+# Step 3: Add all files to staging
+git add .
+
+# Step 4: Commit the files
+git commit -m "Initial commit: DayFlow HRMS with React, Node.js, SQLite, and full authentication"
+
+# Step 5: Push to GitHub (main branch)
+git branch -M main
+git push -u origin main
+
+# If the repository already has content and you need to force push:
+# git push -u origin main --force
+
+# Alternative: If you want to pull existing content first and merge:
+# git pull origin main --allow-unrelated-histories
+# git push -u origin main

@@ -1,0 +1,21 @@
+node_modules
+dist
+.DS_Store
+*.log
+.env
+.env.local
+.vscode
+.idea
+
+# Database files
+database/*.db
+database/*.db-shm
+database/*.db-wal
+database/sessions.db
+
+# Build files
+build/
+*.tsbuildinfo
+
+# OS files
+Thumbs.db
